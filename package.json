@@ -6,16 +6,15 @@
     "react-native",
     "design-system"
   ],
-  "homepage": "https://github.com/Naturalclar/react-native-sketchbook#readme",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/Naturalclar/react-native-sketchbook/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Naturalclar/react-native-sketchbook.git"
+    "url": ""
   },
   "license": "MIT",
-  "author": "Jesse Katsumata <jesse.katsumata@gmail.com>",
+  "author": "Vaibhav Sathe <vaibhavsathe0204@gmail.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
