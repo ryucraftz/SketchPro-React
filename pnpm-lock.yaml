@@ -16,7 +16,7 @@ devDependencies:
     version: 7.1.0(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-mdx-gfm':
     specifier: ^7.1.0
-    version: 7.1.0
+    version: 7.6.11
   '@storybook/addons':
     specifier: ^7.1.0
     version: 7.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -354,7 +354,6 @@ packages:
   /@babel/helper-validator-identifier@7.22.5:
     resolution: {integrity: sha512-aJXu+6lErq8ltp+JhkJUfk1MTGyuA4v7f3pA+BJ5HLfNC6nAQ0Cpi9uOquUj8Hehg0aUiHzWQbOVJGao6ztBAQ==}
     engines: {node: '>=6.9.0'}
-   
     dev: true
 
   /@babel/helper-validator-option@7.22.5:
@@ -2697,10 +2696,10 @@ packages:
       '@storybook/preview-api': 7.1.0
     dev: true
 
-  /@storybook/addon-mdx-gfm@7.1.0:
-    resolution: {integrity: sha512-s0qEOTDZA7czUcQeccDuGUnTwxHlfAyx9S3Lm0OkPyKROJKbCpCm2/taQGUIzmdriclOZ7zm2XIjZUw9hwwNnA==}
+  /@storybook/addon-mdx-gfm@7.6.11:
+    resolution: {integrity: sha512-vgAX9FgNjE04fSO/Erj1EbQndTlWuYx7yrdA5QmVcy6yawo5p0CFKIMuuh3M6d8qxMMWnFMTaOmQ9sJ8fT2ytA==}
     dependencies:
-      '@storybook/node-logger': 7.1.0
+      '@storybook/node-logger': 7.6.11
       remark-gfm: 3.0.1
       ts-dedent: 2.2.0
     transitivePeerDependencies:
@@ -3275,6 +3274,10 @@ packages:
 
   /@storybook/node-logger@7.1.0:
     resolution: {integrity: sha512-Mw5kfcqfW1YI4pqW4+Y/SgnjitEMoqVZdTBQxxA9lS6YOlkQqwmtIFu7or4W/ZCFaPX9dwgd171o870vsA2DlA==}
+    dev: true
+
+  /@storybook/node-logger@7.6.11:
+    resolution: {integrity: sha512-3vFUWcRVfYkMzTO/FiNap2CIvMonz1gVISYIxRHQv32hF+VNmeMb1t7AzWb1zxZIOZp+bdMmCPR4UfVg5EJw8w==}
     dev: true
 
   /@storybook/postinstall@7.1.0:
@@ -7498,6 +7501,7 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
 
   /file-uri-to-path@2.0.0:
@@ -10415,6 +10419,7 @@ packages:
 
   /node-addon-api@1.7.2:
     resolution: {integrity: sha512-ibPK3iA+vaY1eEjESkQkM0BbCqFOaZMiXRTtdB0u7b4djtY6JnsjvPdUHVMg6xQt3B8fpTTWHI9A+ADjM9frzg==}
+    requiresBuild: true
     dev: true
     optional: true
 
